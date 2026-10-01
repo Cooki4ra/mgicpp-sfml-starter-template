@@ -37,7 +37,7 @@ class Game
   sf::Text text = sf::Text(font);
   sf::Text start = sf::Text(font);
   sf::Text quit = sf::Text(font);
-
+  int selected_option = 0;
 
   Mode mode = Mode::Menu;
 };

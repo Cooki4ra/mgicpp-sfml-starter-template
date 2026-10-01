@@ -106,7 +106,10 @@ void Game::keyPressed(const sf::Event::KeyPressed* event)
 	{
 		// W was pressed
 	}
-
+	if (event->scancode == sf::Keyboard::Scancode::Up)
+	{
+		// W was pressed
+	}
 }
 
 // Called by event polling when a KeyReleased event is found
