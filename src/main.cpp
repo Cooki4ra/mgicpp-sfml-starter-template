@@ -19,6 +19,7 @@ int main()
   if (!game.init())
   {
       return 0;
+
   }
 
   // A Clock starts counting as soon as it's created
