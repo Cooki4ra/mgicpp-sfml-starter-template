@@ -40,7 +40,7 @@ int main()
         {
             window.close();
         }
-
+        //Comment
         //A Key was pressed, put the information in a KeyPressed event and send it to a game function to be handled
         else if (const sf::Event::KeyPressed* keyPressed = event->getIf<sf::Event::KeyPressed>())
         {
